@@ -147,17 +147,44 @@ body{
 
 }
 /*trust corner*/
-.timage{
-    width: 540px;
+.trusted{
     height: 597px;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 210px;
+    gap: 60px;
 }
 .timage2{
     height: 285px;
     width: 285px;
 }
+.td2{
+    width: 540px;
+    height: 597px;
+   
+}
+
+.td{
+    margin-top:-723px;
+    margin-left: 350px;
+}
+
 .thead{
+    margin:0;
     font-size: 50px;
     font-weight: 700;
+}
+.tlist{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.tinfo{
+    margin: 38px 0px;
 }
 @media screen and (max-width: 430px){
     .li1, .li2, .li3, .headart{
