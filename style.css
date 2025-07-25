@@ -1,0 +1,143 @@
+/*fonts*/
+.inter-regular{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100s;
+  font-style: normal;
+}
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+body{
+    background-color: rgba(245, 248, 255, 1);
+}
+
+/*shared style*/
+.mlogo{
+    height: 82px;
+    width: 135px;
+    
+}
+/*head*/
+.headup{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 150px 114px 150px;
+    align-items: center;
+}
+#headlist{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 48px;
+    font-family: "Inter", sans-serif;
+    
+   
+}
+.li4 img{
+    height: 24px;
+    width: 24px;
+    padding-right: 10px;
+}
+.li1{
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+}
+.li2, .li3{
+    color: rgba(137, 135, 161, 1);
+}
+.li4{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+/*head info*/
+.headinfo{
+    height: 461px;
+    width: 1240px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items:end;
+    margin: 0 auto;
+    gap: 0px;
+    
+}
+.uptext{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    line-height: 1.2;
+    height: 11.12rem;
+    width: 35.6rem;
+}
+
+.upin, .upin2{
+    color:rgba(233, 90, 8, 1) ;
+}
+.headart{
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+.itext{
+    display: none;
+}
+
+@media screen and (max-width: 430px){
+    .li1, .li2, .li3, .headart{
+        display: none;
+    }
+    .headup{
+        width: 22.5rem;
+        height: 2.37rem; 
+        padding: 67px 16px 28px 16px;  
+       
+    }
+
+    .headinfo{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 393.18px;
+        
+        
+    }
+
+    .mlogo{
+        height: 38px;
+        width: 63px;
+
+    }
+    .uptext{
+        font-size: 24px;
+        height: 147px;
+        width: 361px;
+        padding: 28px 16px 28px 16px;
+
+    }
+        
+    
+    .itext{
+        display: block;   
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin: 0 200;
+        color: rgba(0, 0, 0, 0.5);
+        height: 4.25rem;
+        width: 22.5rem;
+    }
+    .headinfo img{
+        height: 245px;
+        width: 100%;
+    }
+
+    
+}
