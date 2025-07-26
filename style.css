@@ -161,6 +161,7 @@ body{
 .timage2{
     height: 285px;
     width: 285px;
+    
 }
 .td2{
     width: 540px;
@@ -170,7 +171,8 @@ body{
 
 .td{
     margin-top:-723px;
-    margin-left: 350px;
+    margin-left:725px;
+
 }
 
 .thead{
@@ -186,6 +188,141 @@ body{
 .tinfo{
     margin: 38px 0px;
 }
+/*deals*/
+.deals{
+    margin-top:500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+.dpara{
+
+    height: 54px;
+    width: 888px;
+
+}
+.offer-container{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 28px;
+
+}
+
+    
+   
+
+
+.bloom{
+    border: solid black 2px;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/deal-bloom.png); 
+    text-align: center;
+    background-repeat: no-repeat ;
+}
+
+
+.bloom-text{
+    font-size: 20px;
+    font-weight: 700;
+    height: 27px;
+    width: 270px;
+    color: #ffffff;
+    padding-top: 65px;
+    margin-bottom: 0px;
+    
+    
+}
+.bloom-b{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    height: 50px;
+    width: 270px;
+    margin-top: 0px;
+    
+}
+.ana{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/deal-ana.png);
+    text-align: center;
+    padding: 65px 49px 65px 49px;
+    background-repeat: no-repeat ;
+}
+
+
+
+
+.zabo{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    
+    
+
+}
+.zabo-text{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    height: 50px;
+    width: 498px;
+    margin-bottom: 0px;
+
+}
+.zabo-b{
+    font-size: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    height: 50px;
+    width: 270px;
+    margin-top: 0px;
+}
+/*search bar section*/
+.search-bar{
+    background-image: url(./assets/news-letter-bg.png);
+}
+/*last foot last*/
+.lastdiv{
+    display: grid;
+    height: 533px;
+    grid-template-columns:repeat(4, 1fr);
+    gap:110px;
+    padding: 50px 160px 150px 160px;
+}
+.last-list1{
+    display: grid;
+    gap: 32px; 
+}
+.last-list2{
+    display: grid;
+    gap: 32px; 
+}
+.last-list-items{
+    list-style: none;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: gray;
+}
+.imgcontainer{
+    height: 36px;
+    width: 216px;
+    gap:24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    
+
+}
 @media screen and (max-width: 430px){
     .li1, .li2, .li3, .headart{
         display: none;
@@ -200,7 +337,6 @@ body{
     .headinfo{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
-        
         width: 393.18px;
         
         
@@ -294,8 +430,49 @@ body{
         font-size: 16px;
         margin-top: 0px;
         text-align: center;
-        
 
     }
+    .td{
+        display: none;
+    }
+    .td2{
+        height: 396px;
+        width: 358px;
+    }
+    .trusted{
+        grid-template-columns: repeat(1, 1fr);
+        width: 361px;
+        height: 648px;
+        padding-top: 900px;
+        gap:18px
+    }
+    .timage{
+        height: 396px;
+        width: 358px; 
+    }
+    .tinfo{
+        height: 234px;
+        width: 361px;
+    }
+    .thead{
+        font-size: 24px;
+    }
+    .tlist{
+        font-size: 14px;
+    }
+    .tinfo ul{
+        margin: 10px 2px;
+    }
+    
+    .br1{
+        display: none;
+    }
+    .deals{
+        margin-top: 200px;
+    }
+    
+
+    
+
     
 }
